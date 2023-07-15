@@ -11,6 +11,8 @@
 		26EC8AF22A3674F000363280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC8AF12A3674F000363280 /* ContentView.swift */; };
 		26EC8AF42A3674F200363280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EC8AF32A3674F200363280 /* Assets.xcassets */; };
 		26EC8AF72A3674F200363280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EC8AF62A3674F200363280 /* Preview Assets.xcassets */; };
+		26EC8AFE2A36760B00363280 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC8AFD2A36760B00363280 /* Models.swift */; };
+		26EC8B002A3682F900363280 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC8AFF2A3682F900363280 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		26EC8AF12A3674F000363280 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		26EC8AF32A3674F200363280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26EC8AF62A3674F200363280 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26EC8AFD2A36760B00363280 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		26EC8AFF2A3682F900363280 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				26EC8AEF2A3674F000363280 /* JDMcarsApp.swift */,
+				26EC8AFD2A36760B00363280 /* Models.swift */,
 				26EC8AF12A3674F000363280 /* ContentView.swift */,
+				26EC8AFF2A3682F900363280 /* DetailsView.swift */,
 				26EC8AF32A3674F200363280 /* Assets.xcassets */,
 				26EC8AF52A3674F200363280 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26EC8AFE2A36760B00363280 /* Models.swift in Sources */,
+				26EC8B002A3682F900363280 /* DetailsView.swift in Sources */,
 				26EC8AF22A3674F000363280 /* ContentView.swift in Sources */,
 				26EC8AF02A3674F000363280 /* JDMcarsApp.swift in Sources */,
 			);
